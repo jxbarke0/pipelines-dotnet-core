@@ -23,6 +23,6 @@ steps:
 
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'Free Trial (1ea875eb-7ba1-465c-89ed-03ff4105b8eb)'
+    azureSubscription: '1ea875eb-7ba1-465c-89ed-03ff4105b8eb'
     WebAppName: 'Pipeline Test'
     Package: $(System.ArtifactsDirectory)/**/*.zip
